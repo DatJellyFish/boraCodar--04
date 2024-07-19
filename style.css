@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  /* width: 1366px; */
+  padding: 72px 0px 112px 0px;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(108deg, #935fd3 0%, #9245f1 100%);
+}
+
+/* =========== User image & name =========== */
+#card {
+  display: flex;
+  width: 375px;
+  padding: 24px 24px 16px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex-shrink: 0;
+
+  border-radius: 12px;
+  border: 1px solid #f4effa;
+  background-color: #fdfcfe;
+  box-shadow: 0px 82px 23px 0px rgba(30, 30, 30, 0),
+    0px 52px 21px 0px rgba(30, 30, 30, 0.01),
+    0px 29px 18px 0px rgba(30, 30, 30, 0.05),
+    0px 13px 13px 0px rgba(30, 30, 30, 0.09),
+    0px 3px 7px 0px rgba(30, 30, 30, 0.1), 0px 0px 0px 0px rgba(30, 30, 30, 0.1);
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.name #profile-name {
+  font-family: "Heebo";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 133%;
+}
+
+.name #email {
+  font-family: Heebo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 128%;
+}
+
+.divisor {
+  width: 327px;
+  height: 1px;
+  background-color: #f4effa;
+}
+
+/* =========== Account settings =========== */
+
+h1 {
+  color: #797085;
+  font-family: Heebo;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 12px */
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+
+#settings {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+#settings .account {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+}
+
+#list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+#list .item-1 {
+  display: flex;
+  padding: 8px 0px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.item-1 p {
+  flex: 1 0 0;
+  color: #38343d;
+  font-family: Heebo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+#other {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+#other .help {
+  display: flex;
+  padding: 8px 0px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+#other .exit {
+  display: flex;
+  padding: 8px 0px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.help p {
+  color: #38343d;
+  font-family: Heebo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.exit p {
+  color: #a22;
+  font-family: Heebo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
